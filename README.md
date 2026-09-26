@@ -1,8 +1,11 @@
 # Data Science & AI/ML Practical Exam - Set A
 
 **Student name:** Krisha Patel
+
 **Student ID:** 11633
+
 **Set:** A
+
 **Objective:** Predict campaign responses (`response`: 1 = responded, 0 = did not respond) and identify
 audience segments from a synthetic marketing dataset.
 
