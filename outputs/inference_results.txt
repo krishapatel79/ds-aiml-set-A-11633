@@ -1,0 +1,20 @@
+M2 - Statistical Inference (fit partition, observed engagement values)
+
+H0: mean engagement of G1 equals mean engagement of G2
+H1: mean engagement of G1 is not equal to mean engagement of G2
+
+G1 count: 84
+G2 count: 108
+Welch t-statistic: 0.7230
+p-value: 0.4707
+Decision at alpha=0.05: fail to reject H0
+
+95% confidence interval for overall mean engagement: (49.537, 52.466)
+
+Assumptions: the fit records are independent of each other, and the sampling
+distribution of the mean is approximately normal (reasonable here because of the
+sample size, by the central limit theorem).
+
+Interpretation: the test only tells us whether the two group means look different
+in this sample. It does not say that being in G1 or G2 causes a change in
+engagement, since group was not randomly assigned in an experiment.

@@ -1,0 +1,16 @@
+F3 - Leakage Evidence
+
+Transformed shapes: fit (192, 7), validation (48, 7), test (60, 7)
+Feature names: ['visits', 'recency', 'engagement', 'spend', 'engineered_feature', 'group_G1', 'group_G2']
+All transformed numeric outputs are finite: True
+
+record_id is excluded from every model because it is just a row identifier and
+carries no information about the campaign response.
+
+response (the target) is excluded from the input features because a model
+cannot be given the answer it is trying to predict.
+
+The imputer, encoder and scaler are fitted only on the 192 fit records. Test
+data is never used to fit these transforms, and test set statistics are never
+looked at before the final evaluation, so that the reported test performance
+reflects data the model has not seen in any form.

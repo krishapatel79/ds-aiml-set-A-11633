@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# virtual environments
+venv/
+.venv/
+env/
+
+# OS / editor files
+.DS_Store
+.vscode/
+.idea/
+
+# secrets
+.env
+*.key
+
+# jupyter runtime
+.jupyter/

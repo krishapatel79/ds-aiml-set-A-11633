@@ -1,0 +1,16 @@
+M3 - Linear Algebra (fit partition, engagement and visits, observed values only)
+
+Complete rows used: 181
+Covariance matrix:
+[[103.65708913   4.11811311]
+ [  4.11811311 103.06117496]]
+
+Eigenvalues: [ 99.23025399 107.4880101 ]
+Largest eigenvalue: 107.4880
+Variance share of largest eigenvalue: 0.5200
+Principal direction (engagement, visits): [-0.73217627 -0.6811152 ]
+
+The principal direction shows the combination of engagement and visits that
+spreads out the most. Its variance share tells us how much of the total spread
+in this two-column matrix is explained by that single direction; the rest of
+the spread is explained by the remaining (orthogonal) direction.
