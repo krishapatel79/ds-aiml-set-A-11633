@@ -137,8 +137,8 @@ values in `outputs/model_comparison.csv` are computed directly from these saved 
 
 ## Video
 
-- URL: ADD_YOUR_VIDEO_URL_HERE
-- Duration: ADD_DURATION_HERE (5-10 minutes)
+- URL: https://drive.google.com/file/d/17M4AzOo8njgO2wOjLLZL2MZUfu0fVcsa/view?usp=sharing
+- Duration: 15:40 
 
 ## References
 
